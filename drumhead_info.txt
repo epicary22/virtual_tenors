@@ -1,0 +1,12 @@
+240px total for top row
+450px total for bottom row
+6xInches radius for drum size
+center is 270px here
+
+[center + .5*row_size - drumhead_radius for right drums, swap signs for left]
+
+6in: 270, 190
+8in: 270 + 120 - 48, 92
+10in: 270 - 120 + 60, 80
+12in: 270 + 260 - 72, 176
+13in: 270 - 260 + 78, 170

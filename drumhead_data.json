@@ -1,0 +1,32 @@
+{
+  "6in": {
+    "down_color": [255, 255, 255],
+    "raw_pos": [270, 190],
+    "radius": 36,
+    "hit_keys": ["b"]
+  },
+  "8in": {
+    "down_color": [255, 255, 255],
+    "raw_pos": [342, 92],
+    "radius": 48,
+    "hit_keys": ["h", "j"]
+  },
+  "10in": {
+    "down_color": [255, 255, 255],
+    "raw_pos": [210, 80],
+    "radius": 60,
+    "hit_keys": ["f", "g"]
+  },
+    "12in": {
+    "down_color": [255, 255, 255],
+    "raw_pos": [458, 176],
+    "radius": 72,
+    "hit_keys": ["n", "m"]
+  },
+  "13in": {
+    "down_color": [255, 255, 255],
+    "raw_pos": [88, 170],
+    "radius": 78,
+    "hit_keys": ["c", "v"]
+  }
+}
