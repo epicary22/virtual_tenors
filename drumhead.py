@@ -5,7 +5,7 @@ GRAY = (25, 33, 40)
 
 
 class DrumHead:
-    def __init__(self, name, screen, hit_keys, down_color=(255, 255, 255), raw_pos=(0, 0), radius=20):
+    def __init__(self, name, screen, hit_keys, sound_filename, down_color=(255, 255, 255), raw_pos=(0, 0), radius=20):
         """
         :param raw_pos: This is the center position of the drumhead. It can be a float to be a percent of the screen
         size, or an int to be a raw pixel value.
@@ -16,6 +16,7 @@ class DrumHead:
         self.down_color = down_color
         self.is_down = False
         self.hit_keys = [eval(f"pygame.K_{hit_key}") for hit_key in hit_keys]
+        self.sound_filename = sound_filename
         self.radius = radius
         self.raw_pos = raw_pos
         self.left_top = self._parse_raw_pos()
@@ -43,6 +44,8 @@ class DrumHead:
 
     def hit(self):
         self.down()
+        hit_sound = pygame.mixer.Sound(self.sound_filename)
+        pygame.mixer.Sound.play(hit_sound)
 
     def up(self):
         self.is_down = False

@@ -10,3 +10,7 @@ center is 270px here
 10in: 270 - 120 + 60, 80
 12in: 270 + 260 - 72, 176
 13in: 270 - 260 + 78, 170
+
+8in sound is root(2)*normal_speed
+subsequent drums are 1/4th_root(2)*8in_speed
+6in sound is 13in * 2
