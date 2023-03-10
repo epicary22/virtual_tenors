@@ -1,4 +1,11 @@
 {
+  "cowbell": {
+    "down_color": [100, 100, 100],
+    "raw_pos": [420, 40],
+    "radius": 20,
+    "hit_keys": ["u"],
+    "sound": "cowbell.wav"
+  },
   "6in": {
     "down_color": [0, 255, 0],
     "raw_pos": [270, 190],
