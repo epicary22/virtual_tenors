@@ -7,6 +7,7 @@ of tenor drums on your PC! This tenor set is a set of quints (1 spock drum) with
 ### bash/zsh: 
 Run `git clone https://github.com/EthanTock/virtual_tenors.git <directory>`, where `<directory>` is the directory you 
 want to clone this repository into.  
+Make sure you have pygame installed by running `python3 -m pip install pygame` in the `<directory>`.  
 Then, run `python3 main.py` from the `<directory>` to start up the virtual tenors.
 
 ## How to Play
