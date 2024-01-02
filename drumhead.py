@@ -1,15 +1,10 @@
 import pygame
-import wave
 
 GRAY = (25, 33, 40)
 
 
 class DrumHead:
     def __init__(self, name, screen, hit_keys, sound_filename, down_color=(255, 255, 255), raw_pos=(0, 0), radius=20):
-        """
-        :param raw_pos: This is the center position of the drumhead. It can be a float to be a percent of the screen
-        size, or an int to be a raw pixel value.
-        """
         self.name = name
         self.screen = screen
         self.screen_dimensions = self.screen_width, self.screen_height = self.screen.get_size()
