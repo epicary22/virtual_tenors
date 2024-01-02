@@ -11,8 +11,10 @@ Make sure you have pygame installed by running `python3 -m pip install pygame` i
 Then, run `python3 main.py` from the `<directory>` to start up the virtual tenors.
 
 ## How to Play
-The tenor set will look like this upon startup:
-ADD IMAGE HERE!!!  
+The tenor set will look like this upon startup:  
+
+![image](https://github.com/epicary22/virtual_tenors/assets/89352235/9a471820-9d0e-43d3-b262-3eb37dc95f37)
+
 You can play each drum by hitting these keys:
 * 8-inch: `h` or `j`
 * 10-inch: `d` or `f`
@@ -22,6 +24,8 @@ You can play each drum by hitting these keys:
 * Cowbell: `u`
 
 You can tell the drum is hit when it lights up and plays a sound.
+
+![image](https://github.com/epicary22/virtual_tenors/assets/89352235/d4f07b0e-4a15-43af-8d6b-46147c630a01)
 
 Don't be afraid to use both of the keys for each drum! This means you can use both your left and right hands to play
 complex patterns.
