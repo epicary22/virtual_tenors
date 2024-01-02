@@ -8,6 +8,7 @@ pygame.mixer.set_num_channels(24)
 
 screen_size = screen_width, screen_height = 540, 260
 screen = pygame.display.set_mode(screen_size)
+pygame.display.set_caption("Virtual Tenors")
 
 
 def parse_drumhead_data(drumhead_data):
