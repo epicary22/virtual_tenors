@@ -5,7 +5,7 @@ import json
 from drumhead import DrumHead
 from scipy.io import wavfile
 
-# samplerate, data = wavfile.read("hi-tom-one-shot-b-key-13-9nZ.wav")
+# samplerate, data = wavfile.read("tom-hit-B.wav")
 
 pygame.init()
 pygame.mixer.set_num_channels(24)
@@ -51,7 +51,8 @@ while 1:
             sys.exit()
         if event.type == pygame.KEYDOWN:
             for drumhead in drumheads:
-                if event.key in drumhead.hit_keys:
+                # print(pygame.key.get_pressed(), drumhead.hit_keys)
+                if event.key in drumhead.hit_keys: # bTODO Fix this line!
                     drumhead.hit()
         elif event.type == pygame.KEYUP:
             for drumhead in drumheads:

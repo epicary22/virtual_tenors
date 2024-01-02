@@ -5,7 +5,9 @@ Real-life tenor drums are expensive and hard-to-store instruments. This changes 
 of tenor drums on your PC! This tenor set is a set of quints (1 spock drum) with a cowbell. 
 
 ## Installation
-Run `git clone https://github.com/epicary22`
+### bash/zsh: 
+Run `git clone https://github.com/EthanTock/virtual_tenors.git <directory>`, where `<directory>` is the directory you 
+want to clone this repository into.
 
 ## Credits
 Cowbell sound effect: https://pixabay.com/sound-effects/13-cowbell-85441/  
