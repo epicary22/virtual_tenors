@@ -37,6 +37,9 @@ the final list would look like `["u", "q"]`.
 Each drum's `"sound"` attribute has the path to the sound file it plays when hit. This path is relative to your current
 directory if it's not an absolute path.
 
+## Demonstration
+Check out my demonstration for these virtual tenors: https://youtu.be/9BDgh0zvVg4
+
 ## Credits
 Cowbell sound effect: https://pixabay.com/sound-effects/13-cowbell-85441/  
 Tom sound effect: https://soundcamp.org/drum-samples-loops-and-one-shots/drum-single-hits-one-shots/tom-drum-samples/hi-tom-one-shot-b-key-13-9nz-wav
